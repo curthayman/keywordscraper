@@ -11,15 +11,15 @@ Features
 🎨 Colorized Output: Highlights keywords in search results for better visibility
 📊 Summary Statistics: Provides an overview of keyword occurrences across the site
 📁 File Export: Save results to a file for later analysis
-Installation
+
+**Installation**
 Clone this repository:
 
-
-*Clone this repository:*
+**Clone this repository:**
 git clone https://github.com/curtthecoder/website-keyword-scraper.git
 cd website-keyword-scraper
 
-Install the required dependencies:
+**Install the required dependencies:**
 pip install -r requirements.txt
 
 Basic usage:

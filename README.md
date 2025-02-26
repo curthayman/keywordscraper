@@ -27,9 +27,7 @@ Clone this repository:
 
 Command Line Options
 
-python keyword_scraper.py [-h] [-o OUTPUT] [-c] [-w] [-d DEPTH] [-p MAX_PAGES] url keywords [keywords ...]
-
-url: The website URL to scan
+python keyword_scraper.py [-h] [-o OUTPUT] [-c] [-w] [-d DEPTH] [-p MAX_PAGES] url keywords [keywords ...] url: The website URL to scan
 
 keywords: One or more keywords to search for
 
@@ -64,8 +62,11 @@ Match whole words only (won't match "password" in "mypassword123"):
 Output Example
 
 Keyword Search Summary:
+
 - 'password': Found 15 times across 3 pages
+
 - 'username': Found 8 times across 2 pages
+
 - 'email': Not found on any page
 
 Scanned 5 pages from https://example.com

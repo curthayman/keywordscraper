@@ -23,6 +23,7 @@ Clone this repository:
 
 **Clone this repository:**
 ```git clone https://github.com/curtthecoder/website-keyword-scraper.git```
+
 ```cd website-keyword-scraper```
 
 **Install the required dependencies:**

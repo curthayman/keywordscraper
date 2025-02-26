@@ -19,9 +19,9 @@ Created for fun by **curtthecoder**
 📁 File Export: Save results to a file for later analysis
 
 **Installation**
-Clone this repository:
 
 **Clone this repository:**
+
 ```git clone https://github.com/curtthecoder/website-keyword-scraper.git```
 
 ```cd website-keyword-scraper```

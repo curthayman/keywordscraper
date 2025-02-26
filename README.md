@@ -25,7 +25,7 @@ Clone this repository:
 **Basic usage:**
 ```python keyword_scraper.py example.com keyword1 keyword2 keyword3```
 
-Command Line Options
+**Command Line Options**
 
 python keyword_scraper.py [-h] [-o OUTPUT] [-c] [-w] [-d DEPTH] [-p MAX_PAGES] url keywords [keywords ...] url: The website URL to scan
 
@@ -41,7 +41,7 @@ keywords: One or more keywords to search for
 
 -p, --max-pages: Maximum pages to scan (default: 20)
 
-Examples
+**Examples**
 Search for a single keyword:
 ```python keywordscraper.py example.com password```
 
@@ -59,9 +59,9 @@ Match whole words only (won't match "password" in "mypassword123"):
 
 ```python keywordscraper.py example.com password -w```
 
-Output Example
+**Output Example**
 
-Keyword Search Summary:
+**Keyword Search Summary:**
 
 - 'password': Found 15 times across 3 pages
 
@@ -85,7 +85,8 @@ Page: https://example.com/signup
     1. ...Choose a username that is unique and memora...
     2. ...Your password should include numbers and sp...
 
-Requirements
+**Requirements**
+
 Python 3.6+
 requests
 beautifulsoup4

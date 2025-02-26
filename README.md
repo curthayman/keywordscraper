@@ -28,12 +28,19 @@ Clone this repository:
 Command Line Options
 
 python keyword_scraper.py [-h] [-o OUTPUT] [-c] [-w] [-d DEPTH] [-p MAX_PAGES] url keywords [keywords ...]
+
 url: The website URL to scan
+
 keywords: One or more keywords to search for
+
 -o, --output: Save results to a file
+
 -c, --case-sensitive: Enable case-sensitive matching
+
 -w, --whole-word: Match whole words only
+
 -d, --depth: Crawl depth (default: 1)
+
 -p, --max-pages: Maximum pages to scan (default: 20)
 
 Examples

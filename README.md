@@ -16,8 +16,8 @@ Features
 Clone this repository:
 
 **Clone this repository:**
-git clone https://github.com/curtthecoder/website-keyword-scraper.git
-cd website-keyword-scraper
+```git clone https://github.com/curtthecoder/website-keyword-scraper.git```
+```cd website-keyword-scraper```
 
 **Install the required dependencies:**
 ```pip install -r requirements.txt```
@@ -38,21 +38,21 @@ keywords: One or more keywords to search for
 
 Examples
 Search for a single keyword:
-python keywordscraper.py example.com password
+```python keywordscraper.py example.com password```
 
 Search for multiple keywords:
-python keywordscraper.py example.com username password email
+```python keywordscraper.py example.com username password email```
 
 Search with a crawl depth of 2 (follows links to scan more pages):
-python keywordscraper.py example.com password -d 2
+```python keywordscraper.py example.com password -d 2```
 
 Save results to a file:
 
-python keywordscraper.py example.com password -o results.txt
+```python keywordscraper.py example.com password -o results.txt```
 
 Match whole words only (won't match "password" in "mypassword123"):
 
-python keyword_scraper.py example.com password -w
+```python keywordscraper.py example.com password -w```
 
 Output Example
 

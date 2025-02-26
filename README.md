@@ -1,15 +1,21 @@
 Website Keyword Scraper
-A powerful Python tool for scraping websites to find specific keywords, showing their context, and identifying the pages where they appear.
+A Python tool for scraping websites to find specific keywords, showing their context, and identifying the pages where they appear. I created this to add to my Bug Bounty Tools arsenal 
 
-Created for fun by curtthecoder
+Created for fun by **curtthecoder**
 
-Features
+**Features**
 🔍 Comprehensive Keyword Detection: Finds keywords in visible text, HTML attributes, meta tags, and even JavaScript
+
 🌐 Website Crawling: Follows links to scan multiple pages within the same domain
+
 🎯 Context Display: Shows the text surrounding each keyword match
+
 🔗 URL Tracking: Identifies which pages contain your keywords
+
 🎨 Colorized Output: Highlights keywords in search results for better visibility
+
 📊 Summary Statistics: Provides an overview of keyword occurrences across the site
+
 📁 File Export: Save results to a file for later analysis
 
 **Installation**

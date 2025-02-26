@@ -20,10 +20,10 @@ git clone https://github.com/curtthecoder/website-keyword-scraper.git
 cd website-keyword-scraper
 
 **Install the required dependencies:**
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
-Basic usage:
-python keyword_scraper.py example.com keyword1 keyword2 keyword3
+**Basic usage:**
+```python keyword_scraper.py example.com keyword1 keyword2 keyword3```
 
 Command Line Options
 
